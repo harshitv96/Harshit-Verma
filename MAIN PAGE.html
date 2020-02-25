@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+div {
+  width: 100px;
+  height: 50px;
+  text-shadow:5px 5px 10px red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+#div6 {animation-timing-function: ease;}
+#div7 {animation-timing-function: ease-in;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+i:hover {
+          color:yellow;
+	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+margin:-10;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+
+
+li a:hover {
+  background-color: #111;
+}
+body{background-image:url("1012707.jpg");
+background-repeat:no-repeat;
+background-size:100% 800px;}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  
+<li><a class="active" href="me.html" target="_self"><i>ABOUT ME</i></a></li>
+  <li><a href="location.html" target="_self"><i>LOCATION</i></a></li>
+  <li><a href="1.html" target="_self"><i>COURSES</i></a></li>
+  <li><a href="qualification.html" target="_self"><i>QUALIFICTIONS</i></a></li>
+<li><a href="tag.html" target="_self"> <i>HTML TAGS</i></a></li>
+</ul>
+<img src="my pic.jpg"width="230" height="250" align="right">
+
+
+<p><h1 style="font-size:60px ;color: #56fc03;">
+<div id="div1">W</div>
+<div id="div2">E</div>
+<div id="div3">L</div>
+<div id="div4">C</div>
+<div id="div5">O</div>
+<div id="div6">M</div>
+<div id="div7">E</div>
+</h1></p>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<h1 style="FONT-SIZE:70PX ;text-decoration:underline; color:RED;" align="RIGHT"><i> HARSHIT VERMA</i></h1>
+
+
+</body>
+</html>
